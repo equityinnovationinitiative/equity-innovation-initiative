@@ -1,0 +1,41 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>VALIDATION AND LAUNCH PLAN</title><style>body{font:16px/1.65 system-ui;max-width:850px;margin:45px auto;padding:0 20px;color:#213746}p{white-space:pre-wrap;margin:6px 0}a{color:#137a75}</style><p><a href="index.html">Back to initiative website</a></p><p># Validation and implementation strategy</p>
+
+<p>## Current conclusion</p>
+<p>A local, offline, functioning **deterministic** prototype screens document manifests and provides an interactive public explanation. Nine unit tests pass. It does not parse original contract documents, verify digital signatures, use an AI model, or establish compliance with applicable procurement rules. Accordingly it is **not yet independently validated** for real-world procurement decisions. This is the defensible finish line for the current prototype, not full deployment.</p>
+
+<p>## Next technical evidence gate</p>
+<p>1. Obtain permissioned, timestamped **historical** contract-file documents and associated metadata; preserve original hashes, provenance, revisions and as-of availability.</p>
+<p>2. Build a document extraction layer (PDF/text, OCR only when required), with page-specific source citations, explicit uncertainty, and human-verifiable excerpts.</p>
+<p>3. Map applicable FAR/agency requirements and exceptions as of each award date, with procurement-counsel review. Do not assume every document is mandatory in every acquisition.</p>
+<p>4. Blindly label independent examples with at least two expert reviewers and resolve disagreement. Measure precision, recall, false positives, missed issues, and time-to-review by alert category. Avoid claiming performance from synthetic tests.</p>
+<p>5. Add an optional LLM-assisted *explanation* component with source-constrained retrieval, audit logging, redaction, prompt-injection testing, and mandatory human approval. Compare against deterministic baseline; deploy AI only if it improves measured performance.</p>
+<p>6. Independent security, accessibility, privacy and procurement/legal review before any government pilot. Do not expose controlled or sensitive contract files in a public website.</p>
+
+<p>## Product choice</p>
+<p>**Public-facing website + interactive demo** first, not native mobile app. Audiences are procurement professionals, OIG staff, researchers, watchdog groups and journalists; they need sources, reproducible outputs and downloadable reports. The eventual internal government product would be a secure, permissioned web application/API integrated into existing systems—not this public site.</p>
+
+<p>## Proposed website structure</p>
+<p>Home: one-sentence promise and three-minute demo; Case Study: real records and limitations; Try Demo: synthetic examples; Methods: reproducible code, source provenance and error reporting; Pilot: evaluation criteria and security boundaries; Contact: requests for expert review. Publish corrections and version history.</p>
+
+<p>## Outreach sequence</p>
+<p>- Stage 1: recruit two independent reviewers (one federal acquisition specialist and one software/data-quality specialist); ask for critique, not endorsement.</p>
+<p>- Stage 2: publish corrected demonstration and a concise 2–3-minute walkthrough video. Show one clearly synthetic pre-award alert and one reconciled real-data analysis; distinguish them visually.</p>
+<p>- Stage 3: approach nonpartisan procurement research groups, university public administration programs, inspector general innovation teams, and agency acquisition offices with a **narrow pilot proposal**.</p>
+<p>- Stage 4: invite independent journalism and broader public discussion only after technical review. Avoid partisan branding and unverified fraud allegations.</p>
+<p>- Stage 5: propose a limited, read-only pilot using non-sensitive records, with pre-agreed metrics and stop conditions. Any authorized internal integration is a separate security and governance project.</p>
+
+<p>## Pilot success criteria (targets to agree with host, not measured results)</p>
+<p>- Reproducible evidence links for every actionable alert.</p>
+<p>- Measured precision/recall on an independent labeled sample, with explicit acceptable thresholds agreed by host.</p>
+<p>- Lower median time for reviewers to locate relevant documents compared with manual baseline.</p>
+<p>- Clear human override, correction, audit trail, retention policy and independent oversight.</p>
+<p>- No automatic legal, enforcement, or adverse personnel determinations.</p>
+
+<p>## 90-day plan (5–10 hours/week)</p>
+<p>Weeks 1–2: publish demo and methods; expert feedback. Weeks 3–5: obtain permitted sample documents and implement extraction. Weeks 6–8: label independent test set and run blind evaluation. Weeks 9–10: refine, publish correction log and record video. Weeks 11–13: outreach to 5–10 relevant organizations, seek one scoped pilot conversation. **External access and responses are dependencies, not guaranteed outcomes.**</p>
+
+<p>## Low-cost budget</p>
+<p>Existing remaining personal allocation: **$230**. Development and testing so far: $0 additional. Optional later: domain ~$12–25/year; static hosting often free; small contingency for video/hosting. Do not purchase until project name and launch content are approved. Verify current provider prices before spending.</p>
+
+<p>## Intellectual property and trust</p>
+<p>Publish enough source and methodology for independent reproduction, choose a clear code license before public release, maintain a conflict-of-interest disclosure, publish errors and corrections, and prohibit claims that the system identifies fraud or wrongdoing from metadata alone.</p></html>

@@ -1,0 +1,28 @@
+EQUITY & INNOVATION INITIATIVE — PUBLICATION GUIDE
+
+This folder is a static website. No hosting or domain has been activated.
+
+FAST FREE DEPLOY (GitHub Pages)
+1. Create a GitHub account or sign in at https://github.com/
+2. Create a PUBLIC repository, e.g. equity-innovation-initiative-site.
+3. Upload the CONTENTS of this folder to the repository root (index.html must be at root).
+4. Open Settings > Pages > Build and deployment > Deploy from a branch.
+5. Select main and /(root), then Save.
+6. Wait for GitHub Pages to display the URL and open it.
+7. Test the demo, documentation links and phone layout.
+8. Share the resulting URL for review before buying a custom domain.
+
+CAUTIONS
+- A public repository exposes all uploaded files. This package contains no personal secrets.
+- No public contact form/email is configured yet; set up a dedicated address before outreach.
+- No analytics, backend, AI service or automated escalation is live.
+- Address examples are synthetic; public-contract findings are exploratory, not fraud findings.
+- GitHub Pages policies and UI may change; follow current GitHub documentation if screens differ.
+
+PRE-LAUNCH CHECKS
+[ ] Confirm mission wording and legal/nonprofit status language.
+[ ] Have technical/procurement specialist review claims.
+[ ] Add dedicated contact email or approved contact mechanism.
+[ ] Confirm published documents do not contain sensitive information.
+[ ] Check site on mobile and desktop; click every link.
+[ ] Publish correction and privacy contact procedures before soliciting reports.
